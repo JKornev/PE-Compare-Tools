@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Monstra">
+      <UniqueIdentifier>{bd48de42-b101-4f3d-8a94-62992d18f62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\PECompareTools.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PE Compare Tools.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddModuleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CacheMapping.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ErrorHandler.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEBuffer.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEDefs.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEDirRelocs.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEInfo.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEManager.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEManagerFile.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PEManagerRemoteVirtual.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PESandbox.h">
+      <Filter>Monstra</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeAlignDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PECompare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PETools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PEToolsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddModuleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmpDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CacheMapping.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorHandler.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEBuffer.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEDirRelocs.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEInfo.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEManager.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEManagerFile.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PEManagerRemoteVirtual.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PESandbox.cpp">
+      <Filter>Monstra</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeAlignDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PECompare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PETools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PEToolsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PE Compare Tools.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
